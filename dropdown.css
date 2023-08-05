@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/pexels-ian-beckley-2440024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont{
+    background-color: rgba(210, 105, 30, 0.341);
+}
+#nav{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+}
+#nav li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color:black;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    background-color: aliceblue;
+}
+#drop:hover #menu{
+    display: block;
+    
+}
+#nav li a:hover{
+    color: red;
+    background-color: aqua;
+}

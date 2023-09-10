@@ -1,0 +1,13 @@
+ul{
+    list-style-type: square;
+}
+#ch{
+    color: blue;
+}
+.kk{
+    color: blue;
+}
+body{
+    background-image: linear-gradient(red,orange,pink);
+    height: 100vh;
+}
